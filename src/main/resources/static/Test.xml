@@ -1,0 +1,107 @@
+<vx:OTA_CruisePNR_UpdateNotifRQ xmlns:ns3="http://www.versonix.com/ota" xmlns:vx="http://www.opentravel.org/OTA/2003/05" xmlns:ns4="http://schemas.xmlsoap.org/soap/envelope/" TimeStamp="2022-03-30T07:42:36.651" TargetName="SEAWARE@VVSEAINTORA" Version="1.53">
+  <vx:SailingInfo>
+    <vx:SelectedSailing VoyageID="SC2204015NPP" Start="2022-04-01" Duration="P5D" End="2022-04-06">
+      <vx:CruiseLine ShipCode="SC" ShipName="Scarlet Lady"/>
+      <vx:Region RegionCode="CARIBB.."/>
+      <vx:DeparturePort EmbarkationTime="2022-04-01T19:00:00" LocationCode="MIA" CodeContext="SEAWARE">Miami</vx:DeparturePort>
+      <vx:ArrivalPort DebarkationDateTime="2022-04-06T06:30:00" LocationCode="MIA" CodeContext="SEAWARE">Miami</vx:ArrivalPort>
+    </vx:SelectedSailing>
+    <vx:InclusivePackageOption CruisePackageCode="5NPP" Start="2022-04-01" End="2022-04-06"/>
+    <vx:Currency CurrencyCode="USD"/>
+    <vx:SelectedCategory WaitlistIndicator="false" PricedCategoryCode="TC">
+      <vx:SelectedCabin GuestRefNumbers="1 2" Status="36" ShipSide="Starboard" CabinCategoryStatusCode="36" CabinCategoryCode="TC" CabinRanking="1" DeckNumber="14" DeckName="DECK 14" CabinNumber="14214Z" MaxOccupancy="2">
+        <vx:MeasurementInfo DimensionInfo="Central Sea Terrace"/>
+        <vx:CabinAttributes>
+          <vx:CabinAttribute CabinAttributeCode="40"/>
+        </vx:CabinAttributes>
+      </vx:SelectedCabin>
+    </vx:SelectedCategory>
+    <vx:Information Name="NAME">
+      <vx:Text Formatted="false">Dominican Daze</vx:Text>
+    </vx:Information>
+    <vx:Information Name="PKGTYPECOMMENT">
+      <vx:Text Formatted="false">Dominican Daze</vx:Text>
+    </vx:Information>
+  </vx:SailingInfo>
+  <vx:ReservationInfo>
+    <vx:ReservationID StatusCode="49" BookedDate="2022-03-30T07:36:58" Type="14" ID="164419" ID_Context="SEAWARE">
+      <vx:CompanyName>OPENTRAVEL</vx:CompanyName>
+      <vx:TPA_Extensions>
+        <ns3:AgencyInfo Contact="VIRGIN VOYAGES DIRECT - USD" ContactID="5"/>
+        <ns3:TWReferralInfo TWReferralCode="8D2B1851-04DC-4EB3-AB87-0D83514F5277"/>
+      </vx:TPA_Extensions>
+    </vx:ReservationID>
+    <vx:GuestDetails>
+      <vx:GuestDetail>
+        <vx:SelectedFareCode FareCode="PCTOFFTARGETED"/>
+        <vx:ContactInfo GuestRefNumber="1" Age="54" Nationality="US" PersonBirthDate="1967-08-08" Gender="Female" LoyaltyMembershipID="261209" ContactType="REGULAR" BirthDate="1967-08-08">
+          <vx:PersonName>
+            <vx:GivenName>Teresa</vx:GivenName>
+            <vx:Surname>Mendez</vx:Surname>
+          </vx:PersonName>
+          <vx:Telephone PhoneLocationType="6" PhoneNumber="5178035979" DefaultInd="false"/>
+          <vx:Address Type="1">
+            <vx:AddressLine>221b Baker Street</vx:AddressLine>
+            <vx:AddressLine>wallaby way</vx:AddressLine>
+            <vx:CityName>Miami</vx:CityName>
+            <vx:PostalCode>33012</vx:PostalCode>
+            <vx:StateProv StateCode="FL"/>
+            <vx:CountryName Code="US">United States</vx:CountryName>
+          </vx:Address>
+          <vx:Email>jennifer58_692799@mailinator.com</vx:Email>
+          <vx:TPA_Extensions>
+            <ns3:Household ID="362489" ID_Context="SEAWARE" Name="Mendez">
+              <ns3:PersonName>
+                <vx:Surname>Mendez</vx:Surname>
+              </ns3:PersonName>
+            </ns3:Household>
+          </vx:TPA_Extensions>
+        </vx:ContactInfo>
+        <vx:SelectedSpecialServices>
+          <vx:SelectedSpecialService Type="VOUCHER" Code="GRATUITIES" CodeName="Gratuities" CodeDetail="CREDIT" Date="2022-03-30T07:36:58"/>
+        </vx:SelectedSpecialServices>
+      </vx:GuestDetail>
+      <vx:GuestDetail>
+        <vx:SelectedFareCode FareCode="PCTOFFTARGETED"/>
+        <vx:ContactInfo GuestRefNumber="2" Age="31" Nationality="US" PersonBirthDate="1990-12-28" Gender="Male" LoyaltyMembershipID="261210" ContactType="REGULAR" BirthDate="1990-12-28">
+          <vx:PersonName>
+            <vx:GivenName>Lisa</vx:GivenName>
+            <vx:Surname>Mendoza</vx:Surname>
+          </vx:PersonName>
+          <vx:Telephone PhoneLocationType="6" PhoneNumber="6234893400" DefaultInd="false"/>
+          <vx:Email>kspence_122571@mailinator.com</vx:Email>
+          <vx:TPA_Extensions>
+            <ns3:Household ID="362490" ID_Context="SEAWARE" Name="Mendoza">
+              <ns3:PersonName>
+                <vx:Surname>Mendoza</vx:Surname>
+              </ns3:PersonName>
+            </ns3:Household>
+          </vx:TPA_Extensions>
+        </vx:ContactInfo>
+        <vx:SelectedSpecialServices>
+          <vx:SelectedSpecialService Type="VOUCHER" Code="GRATUITIES" CodeName="Gratuities" CodeDetail="CREDIT" Date="2022-03-30T07:36:58"/>
+        </vx:SelectedSpecialServices>
+      </vx:GuestDetail>
+    </vx:GuestDetails>
+    <vx:PaymentOptions>
+      <vx:PaymentOption ReferenceNumber="694644" PaymentType="5" PaymentTransactionTypeCode="charge">
+        <vx:PaymentAmount CurrencyCode="USD" Amount="2127"/>
+      </vx:PaymentOption>
+    </vx:PaymentOptions>
+  </vx:ReservationInfo>
+  <vx:PaymentsDue>
+    <vx:PaymentDue Amount="0" PaymentNumber="70"/>
+    <vx:PaymentDue Amount="0" PaymentNumber="71"/>
+    <vx:PaymentDue Amount="2127" PaymentNumber="80"/>
+    <vx:PaymentDue Amount="0" PaymentNumber="81"/>
+    <vx:PaymentDue Amount="0" PaymentNumber="82"/>
+    <vx:PaymentDue Amount="2127" PaymentNumber="50" DueDate="2022-03-30T08:36:58"/>
+  </vx:PaymentsDue>
+  <vx:POS>
+    <vx:Source>
+      <vx:BookingChannel Type="1">
+        <vx:CompanyName>OPENTRAVEL</vx:CompanyName>
+      </vx:BookingChannel>
+    </vx:Source>
+  </vx:POS>
+</vx:OTA_CruisePNR_UpdateNotifRQ>
